@@ -105,29 +105,6 @@ li.red-link{
   width: 100vw;
 }
 
-.top_wrapper{
-    background-size: 100vw;
-    height: 600px;
-    background-attachment: fixed;
-    background-position: 100% 100%;
-    position: relative;
-    z-index: -3;
-}
-
-body::before {
-  content:"";
-  display:block;
-  position:fixed;
-  top:100;
-  left:0;
-  z-index: -3;
-  width:100%;
-  height:600px;
-  opacity: 0.6;
-  background:url('../image/room.jpg') center/cover no-repeat; /*fixedをトル！*/
-  -webkit-background-size:cover;/*Android4*/
-  }
-
 .top_message{
   position: fixed;
   background-color: rgba(255, 240, 200, 0.8);
