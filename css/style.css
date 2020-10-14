@@ -1,6 +1,35 @@
 /*  本体css*/
-*{
+* {
   box-sizing: border-box;
+}
+
+.profile_container {
+ padding: 0 8px 20px 8px; 
+}
+
+.tomato {
+  color: tomato;
+}
+
+.pl_3 {
+  padding-left: 30px;
+}
+.pt_15 {
+  padding-top: 15px;
+}
+.bold {
+  font-weight:bold;
+  padding-bottom: 10px;
+}
+.big_bold {
+  font-weight:bold;
+  font-size: 18px;
+}
+.pa_5 {
+  padding: 50px;
+}
+.ta_l{
+  text-align: left;
 }
 
 body {
@@ -232,8 +261,9 @@ li.red-link{
 .header_nav{
   height: 60px;
   width: 100%;
-  background-color: #E8EEEC;
+  background-color: white;
   position: absolute;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .5);
 }
 
 .fixed{
@@ -243,11 +273,11 @@ li.red-link{
 }
 
 .top_logo{
-  font-size: 26px;
-  font-weight: bold;
+  font-size: 28px;
+  font-family: 'Ubuntu Mono', monospace;
   padding: 10px;
-  margin-left: 50px;
-  letter-spacing: 7px;
+  margin-left: 80px;
+  letter-spacing: 10px;
 }
 
 .hover_blue li{
@@ -258,6 +288,7 @@ li.red-link{
   padding: 17px 20px;
   transition-duration: 0.5s;
   margin-bottom: 0;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .hover_blue li:hover{
@@ -491,6 +522,7 @@ li.red-link{
 }
 .pt_70{
   padding-top: 70px;
+  
 }
 
 .indent{
@@ -508,6 +540,7 @@ li.red-link{
   font-weight: 300;
   font-size: 30px;
   letter-spacing: 10px;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .back_text{
@@ -520,7 +553,8 @@ li.red-link{
   z-index: 0;
   opacity: 0.07;
   font-weight: 700;
-  letter-spacing: 0px;
+  letter-spacing: px;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .front_text::after{
@@ -583,18 +617,31 @@ li.red-link{
 }
 
 .left_space{
-  width: 40%;
-  text-align: center;
+  width: 30%;
+  text-align: center;  
 }
 
+.left_profile img {
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.left_profile {
+  background: lightgrey;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
 .left_space img{
-  width: 80%;
+  width: 90%;
   border: 1px solid gray;
-  margin-top: 20px;
+  
 }
 
 .right_space{
-  width: 60%;
+  width: 70%;
+  padding: 10px 20px;
 }
 
 .profile_image{
@@ -647,6 +694,8 @@ li.red-link{
 .sns{
   text-align: center;
   display: block;
+  
+  font-size: 20px;
 }
 
 .sns ul{
