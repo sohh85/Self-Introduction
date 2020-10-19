@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+.vision_container {
+  margin: 0 auto;
+  width: 60%;
+}
+
 .profile_container {
  padding: 0 8px 20px 8px; 
 }
