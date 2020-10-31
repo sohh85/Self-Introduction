@@ -19,9 +19,7 @@
 .pl_3 {
   padding-left: 30px;
 }
-.pt_15 {
-  padding-top: 15px;
-}
+
 .bold {
   font-weight:bold;
   padding-bottom: 10px;
@@ -30,12 +28,9 @@
   font-weight:bold;
   font-size: 18px;
 }
-.pa_5 {
+/* .pa_5 {
   padding: 50px;
-}
-.ta_l{
-  text-align: left;
-}
+} */
 
 body {
   width: 100%;
@@ -43,7 +38,6 @@ body {
   padding: 0;
   font-family: 游ゴシック Medium, Yu Gothic Medium, 游ゴシック体, YuGothic, ヒラギノ角ゴ Pro, Hiragino Kaku Gothic Pro, Noto Sans Japanese, メイリオ, Meiryo, Osaka, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
   color: #7b7b7b;
-  background-color: #E8EEEC;
 }
 
 .preload * {
@@ -696,6 +690,29 @@ li.red-link{
   margin-right: 10px;
 }
 
+.myself{
+  text-align: center;
+  display: block;
+  
+  font-size: 17px;
+}
+
+.myself ul{
+  padding-left: 0;
+  display: inline-block;
+}
+
+.myself ul li{
+  text-align: left;
+}
+
+@media screen and (max-width:830px) {
+  .myself{
+    text-align: left;
+    margin-left: 30px;
+  }
+}
+
 .sns{
   text-align: center;
   display: block;
@@ -715,7 +732,7 @@ li.red-link{
 @media screen and (max-width:830px) {
   .sns{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 30px;
   }
 }
 
@@ -848,8 +865,8 @@ li.red-link{
   background-color: #000080;
   color: white;
   text-align: center;
-  height: 50px;
-  padding: 15px;
+  height: 55px;
+  padding: 14px;
 }
 
 .left_space img{
@@ -867,8 +884,8 @@ li.red-link{
   }
 
   .footer_bottom{
-    font-size: 10px;
-    height: 40px;
+    font-size: 12px;
+    height: 48px;
   }
 }
 
