@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+.under_yellow {
+  background: linear-gradient(transparent 70%, yellow 70%);
+}
+
 .vision_container {
   margin: 0 auto;
   width: 65%;
@@ -16,8 +20,8 @@
   color: tomato;
 }
 
-.pl_3 {
-  padding-left: 30px;
+.p_3 {
+  padding: 0 30px 30px 30px;
 }
 
 .bold {
@@ -862,11 +866,11 @@ li.red-link{
 }
 
 .footer_bottom{
-  background-color: #000080;
+  background-color: #FFDAB9;
   color: white;
   text-align: center;
   height: 55px;
-  padding: 14px;
+  padding: 15px;
 }
 
 .left_space img{
